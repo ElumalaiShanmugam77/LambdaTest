@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="classes" name="Failed suite [lambdatest]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="classes" name="ChromeTest(failed)">
+    <parameter name="browserVersion" value="88.0"/>
+    <parameter name="browserName" value="chrome"/>
+    <parameter name="platform" value="Windows 10"/>
+    <classes>
+      <class name="lambdatest.Lambdatest">
+        <methods>
+          <include name="testScenario3"/>
+          <include name="testScenario2"/>
+          <include name="setUp"/>
+          <include name="testScenario1"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- lambdatest.Lambdatest -->
+    </classes>
+  </test> <!-- ChromeTest(failed) -->
+  <test thread-count="5" parallel="classes" name="EdgeTest(failed)">
+    <parameter name="browserVersion" value="87.0"/>
+    <parameter name="browserName" value="MicrosoftEdge"/>
+    <parameter name="platform" value="macOS Sierra"/>
+    <classes>
+      <class name="lambdatest.Lambdatest">
+        <methods>
+          <include name="testScenario3"/>
+          <include name="testScenario2"/>
+          <include name="setUp"/>
+          <include name="testScenario1"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- lambdatest.Lambdatest -->
+    </classes>
+  </test> <!-- EdgeTest(failed) -->
+  <test thread-count="5" parallel="classes" name="FirefoxTest(failed)">
+    <parameter name="browserVersion" value="82.0"/>
+    <parameter name="browserName" value="firefox"/>
+    <parameter name="platform" value="Windows 7"/>
+    <classes>
+      <class name="lambdatest.Lambdatest">
+        <methods>
+          <include name="testScenario3"/>
+          <include name="testScenario2"/>
+          <include name="setUp"/>
+          <include name="testScenario1"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- lambdatest.Lambdatest -->
+    </classes>
+  </test> <!-- FirefoxTest(failed) -->
+  <test thread-count="5" parallel="classes" name="InternetExplorerTest(failed)">
+    <parameter name="browserVersion" value="11.0"/>
+    <parameter name="browserName" value="internet explorer"/>
+    <parameter name="platform" value="Windows 10"/>
+    <classes>
+      <class name="lambdatest.Lambdatest">
+        <methods>
+          <include name="testScenario3"/>
+          <include name="testScenario2"/>
+          <include name="setUp"/>
+          <include name="testScenario1"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- lambdatest.Lambdatest -->
+    </classes>
+  </test> <!-- InternetExplorerTest(failed) -->
+</suite> <!-- Failed suite [lambdatest] -->

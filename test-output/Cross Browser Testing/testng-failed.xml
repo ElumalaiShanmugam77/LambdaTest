@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="classes" name="Failed suite [Cross Browser Testing]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="classes" name="Test1(failed)">
+    <parameter name="Platform" value="Windows 10"/>
+    <parameter name="Version" value="113"/>
+    <parameter name="Browser" value="Chrome"/>
+    <classes>
+      <class name="lambdatest.Lambdatest">
+        <methods>
+          <include name="setUp"/>
+          <include name="teardown"/>
+          <include name="ClickTheCheckboxDemo"/>
+        </methods>
+      </class> <!-- lambdatest.Lambdatest -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+  <test thread-count="5" parallel="classes" name="Test2(failed)">
+    <parameter name="Platform" value="macOS Sierra"/>
+    <parameter name="Version" value="87.0"/>
+    <parameter name="Browser" value="Edge"/>
+    <classes>
+      <class name="lambdatest.Lambdatest">
+        <methods>
+          <include name="setUp"/>
+          <include name="teardown"/>
+          <include name="ClickTheCheckboxDemo"/>
+        </methods>
+      </class> <!-- lambdatest.Lambdatest -->
+    </classes>
+  </test> <!-- Test2(failed) -->
+  <test thread-count="5" parallel="classes" name="Test3(failed)">
+    <parameter name="Platform" value="Windows 7"/>
+    <parameter name="Version" value="82.0"/>
+    <parameter name="Browser" value="Firefox"/>
+    <classes>
+      <class name="lambdatest.Lambdatest">
+        <methods>
+          <include name="setUp"/>
+          <include name="teardown"/>
+          <include name="ClickTheCheckboxDemo"/>
+        </methods>
+      </class> <!-- lambdatest.Lambdatest -->
+    </classes>
+  </test> <!-- Test3(failed) -->
+  <test thread-count="5" parallel="classes" name="Test4(failed)">
+    <parameter name="Platform" value="Windows 10"/>
+    <parameter name="Version" value="11.0"/>
+    <parameter name="Browser" value="Internet Explorer"/>
+    <classes>
+      <class name="lambdatest.Lambdatest">
+        <methods>
+          <include name="setUp"/>
+          <include name="teardown"/>
+          <include name="ClickTheCheckboxDemo"/>
+        </methods>
+      </class> <!-- lambdatest.Lambdatest -->
+    </classes>
+  </test> <!-- Test4(failed) -->
+</suite> <!-- Failed suite [Cross Browser Testing] -->

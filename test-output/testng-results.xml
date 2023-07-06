@@ -1,0 +1,429 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="12" passed="8" failed="4" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-07-07T01:05:48 IST" name="TestNGAssignmentSuite" finished-at="2023-07-07T01:10:50 IST" duration-ms="301430">
+    <groups>
+    </groups>
+    <test started-at="2023-07-07T01:05:48 IST" name="ChromeTest" finished-at="2023-07-07T01:07:43 IST" duration-ms="114834">
+      <class name="lambdatest.TestScenarios">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:lambdatest.TestScenarios@67f639d3]" started-at="2023-07-07T01:05:48 IST" name="setUp" finished-at="2023-07-07T01:06:17 IST" duration-ms="28409" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.lambdatest.com/selenium-playground/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testScenario1()[pri:0, instance:lambdatest.TestScenarios@67f639d3]" started-at="2023-07-07T01:06:17 IST" name="testScenario1" finished-at="2023-07-07T01:06:18 IST" duration-ms="1336" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+expected [LambdaTest] but found [Selenium Grid Online | Run Selenium Test On Cloud]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+expected [LambdaTest] but found [Selenium Grid Online | Run Selenium Test On Cloud]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
+at lambdatest.TestScenarios.testScenario1(TestScenarios.java:121)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testScenario1 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:lambdatest.TestScenarios@67f639d3]" started-at="2023-07-07T01:06:18 IST" name="tearDown" finished-at="2023-07-07T01:06:19 IST" duration-ms="601" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:lambdatest.TestScenarios@67f639d3]" started-at="2023-07-07T01:06:19 IST" name="setUp" finished-at="2023-07-07T01:06:55 IST" duration-ms="35895" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.lambdatest.com/selenium-playground/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testScenario2()[pri:0, instance:lambdatest.TestScenarios@67f639d3]" started-at="2023-07-07T01:06:55 IST" name="testScenario2" finished-at="2023-07-07T01:07:01 IST" duration-ms="5819" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testScenario2 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:lambdatest.TestScenarios@67f639d3]" started-at="2023-07-07T01:07:01 IST" name="tearDown" finished-at="2023-07-07T01:07:01 IST" duration-ms="578" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:lambdatest.TestScenarios@67f639d3]" started-at="2023-07-07T01:07:01 IST" name="setUp" finished-at="2023-07-07T01:07:36 IST" duration-ms="34531" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.lambdatest.com/selenium-playground/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testScenario3()[pri:0, instance:lambdatest.TestScenarios@67f639d3]" started-at="2023-07-07T01:07:36 IST" name="testScenario3" finished-at="2023-07-07T01:07:43 IST" duration-ms="7041" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testScenario3 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:lambdatest.TestScenarios@67f639d3]" started-at="2023-07-07T01:07:43 IST" name="tearDown" finished-at="2023-07-07T01:07:43 IST" duration-ms="581" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- lambdatest.TestScenarios -->
+    </test> <!-- ChromeTest -->
+    <test started-at="2023-07-07T01:07:43 IST" name="EdgeTest" finished-at="2023-07-07T01:08:52 IST" duration-ms="68805">
+      <class name="lambdatest.TestScenarios">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:lambdatest.TestScenarios@69e153c5]" started-at="2023-07-07T01:07:43 IST" name="setUp" finished-at="2023-07-07T01:08:02 IST" duration-ms="18698" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.lambdatest.com/selenium-playground/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testScenario1()[pri:0, instance:lambdatest.TestScenarios@69e153c5]" started-at="2023-07-07T01:08:02 IST" name="testScenario1" finished-at="2023-07-07T01:08:03 IST" duration-ms="873" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+expected [LambdaTest] but found [Selenium Grid Online | Run Selenium Test On Cloud]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+expected [LambdaTest] but found [Selenium Grid Online | Run Selenium Test On Cloud]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
+at lambdatest.TestScenarios.testScenario1(TestScenarios.java:121)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testScenario1 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:lambdatest.TestScenarios@69e153c5]" started-at="2023-07-07T01:08:03 IST" name="tearDown" finished-at="2023-07-07T01:08:03 IST" duration-ms="294" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:lambdatest.TestScenarios@69e153c5]" started-at="2023-07-07T01:08:03 IST" name="setUp" finished-at="2023-07-07T01:08:22 IST" duration-ms="18691" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.lambdatest.com/selenium-playground/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testScenario2()[pri:0, instance:lambdatest.TestScenarios@69e153c5]" started-at="2023-07-07T01:08:22 IST" name="testScenario2" finished-at="2023-07-07T01:08:25 IST" duration-ms="2771" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testScenario2 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:lambdatest.TestScenarios@69e153c5]" started-at="2023-07-07T01:08:25 IST" name="tearDown" finished-at="2023-07-07T01:08:25 IST" duration-ms="328" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:lambdatest.TestScenarios@69e153c5]" started-at="2023-07-07T01:08:25 IST" name="setUp" finished-at="2023-07-07T01:08:47 IST" duration-ms="21780" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.lambdatest.com/selenium-playground/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testScenario3()[pri:0, instance:lambdatest.TestScenarios@69e153c5]" started-at="2023-07-07T01:08:47 IST" name="testScenario3" finished-at="2023-07-07T01:08:51 IST" duration-ms="4646" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testScenario3 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:lambdatest.TestScenarios@69e153c5]" started-at="2023-07-07T01:08:51 IST" name="tearDown" finished-at="2023-07-07T01:08:52 IST" duration-ms="710" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- lambdatest.TestScenarios -->
+    </test> <!-- EdgeTest -->
+    <test started-at="2023-07-07T01:08:52 IST" name="FirefoxTest" finished-at="2023-07-07T01:10:01 IST" duration-ms="69120">
+      <class name="lambdatest.TestScenarios">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:lambdatest.TestScenarios@2af004b]" started-at="2023-07-07T01:08:52 IST" name="setUp" finished-at="2023-07-07T01:09:06 IST" duration-ms="13503" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.lambdatest.com/selenium-playground/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testScenario1()[pri:0, instance:lambdatest.TestScenarios@2af004b]" started-at="2023-07-07T01:09:06 IST" name="testScenario1" finished-at="2023-07-07T01:09:06 IST" duration-ms="807" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+expected [LambdaTest] but found [Selenium Grid Online | Run Selenium Test On Cloud]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+expected [LambdaTest] but found [Selenium Grid Online | Run Selenium Test On Cloud]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
+at lambdatest.TestScenarios.testScenario1(TestScenarios.java:121)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testScenario1 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:lambdatest.TestScenarios@2af004b]" started-at="2023-07-07T01:09:06 IST" name="tearDown" finished-at="2023-07-07T01:09:07 IST" duration-ms="918" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:lambdatest.TestScenarios@2af004b]" started-at="2023-07-07T01:09:07 IST" name="setUp" finished-at="2023-07-07T01:09:25 IST" duration-ms="17370" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.lambdatest.com/selenium-playground/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testScenario2()[pri:0, instance:lambdatest.TestScenarios@2af004b]" started-at="2023-07-07T01:09:25 IST" name="testScenario2" finished-at="2023-07-07T01:09:31 IST" duration-ms="5997" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testScenario2 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:lambdatest.TestScenarios@2af004b]" started-at="2023-07-07T01:09:31 IST" name="tearDown" finished-at="2023-07-07T01:09:32 IST" duration-ms="1717" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:lambdatest.TestScenarios@2af004b]" started-at="2023-07-07T01:09:32 IST" name="setUp" finished-at="2023-07-07T01:09:52 IST" duration-ms="19865" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.lambdatest.com/selenium-playground/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testScenario3()[pri:0, instance:lambdatest.TestScenarios@2af004b]" started-at="2023-07-07T01:09:52 IST" name="testScenario3" finished-at="2023-07-07T01:10:00 IST" duration-ms="7373" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testScenario3 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:lambdatest.TestScenarios@2af004b]" started-at="2023-07-07T01:10:00 IST" name="tearDown" finished-at="2023-07-07T01:10:01 IST" duration-ms="1537" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- lambdatest.TestScenarios -->
+    </test> <!-- FirefoxTest -->
+    <test started-at="2023-07-07T01:10:01 IST" name="InternetExplorerTest" finished-at="2023-07-07T01:10:50 IST" duration-ms="48625">
+      <class name="lambdatest.TestScenarios">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:lambdatest.TestScenarios@563f38c4]" started-at="2023-07-07T01:10:01 IST" name="setUp" finished-at="2023-07-07T01:10:11 IST" duration-ms="9713" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[internet explorer]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.lambdatest.com/selenium-playground/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testScenario1()[pri:0, instance:lambdatest.TestScenarios@563f38c4]" started-at="2023-07-07T01:10:11 IST" name="testScenario1" finished-at="2023-07-07T01:10:12 IST" duration-ms="1229" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+expected [LambdaTest] but found [Selenium Grid Online | Run Selenium Test On Cloud]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+expected [LambdaTest] but found [Selenium Grid Online | Run Selenium Test On Cloud]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
+at lambdatest.TestScenarios.testScenario1(TestScenarios.java:121)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testScenario1 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:lambdatest.TestScenarios@563f38c4]" started-at="2023-07-07T01:10:12 IST" name="tearDown" finished-at="2023-07-07T01:10:13 IST" duration-ms="510" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:lambdatest.TestScenarios@563f38c4]" started-at="2023-07-07T01:10:13 IST" name="setUp" finished-at="2023-07-07T01:10:23 IST" duration-ms="10544" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[internet explorer]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.lambdatest.com/selenium-playground/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testScenario2()[pri:0, instance:lambdatest.TestScenarios@563f38c4]" started-at="2023-07-07T01:10:23 IST" name="testScenario2" finished-at="2023-07-07T01:10:31 IST" duration-ms="7373" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testScenario2 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:lambdatest.TestScenarios@563f38c4]" started-at="2023-07-07T01:10:31 IST" name="tearDown" finished-at="2023-07-07T01:10:31 IST" duration-ms="610" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:lambdatest.TestScenarios@563f38c4]" started-at="2023-07-07T01:10:31 IST" name="setUp" finished-at="2023-07-07T01:10:42 IST" duration-ms="10447" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[internet explorer]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.lambdatest.com/selenium-playground/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testScenario3()[pri:0, instance:lambdatest.TestScenarios@563f38c4]" started-at="2023-07-07T01:10:42 IST" name="testScenario3" finished-at="2023-07-07T01:10:49 IST" duration-ms="7676" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testScenario3 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:lambdatest.TestScenarios@563f38c4]" started-at="2023-07-07T01:10:49 IST" name="tearDown" finished-at="2023-07-07T01:10:50 IST" duration-ms="513" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- lambdatest.TestScenarios -->
+    </test> <!-- InternetExplorerTest -->
+  </suite> <!-- TestNGAssignmentSuite -->
+</testng-results>

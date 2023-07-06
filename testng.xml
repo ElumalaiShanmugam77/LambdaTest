@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="TestNGAssignmentSuite" parallel="classes"
+	thread-count="5">
+	<test name="ChromeTest">
+		<parameter name="browserName" value="chrome" />
+		<parameter name="Url"
+			value="https://www.lambdatest.com/selenium-playground/" />
+		<classes>
+			<class name="lambdatest.TestScenarios" />
+		</classes>
+	</test>
+	<test name="EdgeTest">
+		<parameter name="browserName" value="Edge" />
+		<parameter name="Url"
+			value="https://www.lambdatest.com/selenium-playground/" />
+
+		<classes>
+			<class name="lambdatest.TestScenarios" />
+		</classes>
+	</test>
+	<test name="FirefoxTest">
+		<parameter name="browserName" value="Firefox" />
+		<parameter name="Url"
+			value="https://www.lambdatest.com/selenium-playground/" />
+
+		<classes>
+			<class name="lambdatest.TestScenarios" />
+		</classes>
+	</test>
+	<test name="InternetExplorerTest">
+		<parameter name="browserName" value="internet explorer" />
+		<parameter name="Url"
+			value="https://www.lambdatest.com/selenium-playground/" />
+
+		<classes>
+			<class name="lambdatest.TestScenarios" />
+		</classes>
+	</test>
+</suite> <!-- Suite -->
