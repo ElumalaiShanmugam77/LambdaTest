@@ -10,7 +10,8 @@ To set up the project, follow these steps:
    - Install Java Development Kit (JDK).
    - Ensure that TestNG and Maven are installed on your machine.
 
-2. Clone the repository:
+2. Clone the repository:master
+   https://github.com/ElumalaiShanmugam77/LambdaTest.git
 
 3. Install dependencies:
 - Navigate to the project directory:
